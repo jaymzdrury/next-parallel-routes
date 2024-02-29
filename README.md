@@ -24,9 +24,8 @@ _default.tsx_
 Must have default.tsx inside parallel folder
 
 ```JavaScript
-    //@data
-        //[id]
-            //page.tsx
-        //-default.tsx
-    //page.tsx
+    -@data
+        -[id]
+            -page.tsx
+        -default.tsx
 ```

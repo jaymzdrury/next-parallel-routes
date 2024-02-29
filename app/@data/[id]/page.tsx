@@ -5,7 +5,7 @@ interface Data {
 async function getData(id: string) {
   const res = await fetch(`https://jsonplaceholder.typicode.com/users/${id}`);
   if (!res.ok) throw new Error();
-  const data = res.json();
+  const data = await res.json();
   return data;
 }
 
